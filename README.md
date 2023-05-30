@@ -10,3 +10,9 @@ git clone <repo>
   
  docker-compose up -d 
   
+  
+  Another Gui Tool
+  -----------------
+  docker pull samueltallet/mongodb-php-gui
+  docker run --add-host localhost:172.17.0.1 --publish 5000:5000 --rm samueltallet/mongodb-php-gui
+  
