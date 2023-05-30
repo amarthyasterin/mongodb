@@ -16,3 +16,5 @@ docker pull samueltallet/mongodb-php-gui
 ------------------------------------------
 docker run --add-host localhost:172.17.0.1 --publish 5000:5000 --rm samueltallet/mongodb-php-gui
 --------------------------------------------------------------------------  
+Open your browser at this address: http://127.0.0.1:5000/ to access GUI
+---------------------------------------------------------------------------
